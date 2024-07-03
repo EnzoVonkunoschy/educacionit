@@ -40,3 +40,16 @@ console.log("con forEach---------------")
 personas.forEach((x: Persona)=>{
     console.log(x.nombre+" "+x.edad+" Afiliado: "+(x.afiliado?"Si":"No"))
 })
+
+console.log("Con for of --------------------")
+for(let p of personas){
+    console.log(p.nombre+" "+p.edad+" "+(p.afiliado?"Si":"No"))
+}
+
+// otra forma de instanciar un objeto único
+
+const otraPer: {nombre: string; edad: number;afiliado: boolean} = {
+    nombre: "Esteban",
+    edad: 45,
+    afiliado: false
+}
