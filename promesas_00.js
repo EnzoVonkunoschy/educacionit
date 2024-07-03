@@ -8,3 +8,5 @@ function obtenerPromesa_o_Error(){
 
 console.log(obtenerPromesa_o_Error());
 obtenerPromesa_o_Error().then((x)=>{console.log(x)})
+
+// Comentario agregado
